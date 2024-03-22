@@ -2,10 +2,10 @@ import Link from "next/link";
 
 function HomePage() {
   return (
-    <div className="text-7xl">
-      <h1>Home Page</h1>
-      <Link href="/about" className="text-2xl">
-        About page
+    <div>
+      <h1 className="text-5xl mb-8 font-bold">Home Page</h1>
+      <Link href="/about" className="btn btn-accent">
+        Get Started
       </Link>
     </div>
   );
