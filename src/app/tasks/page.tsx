@@ -1,11 +1,11 @@
 import Link from "next/link";
-import TaskForm from "@/app/components/TaskForm";
+import TaskFormCustom from "@/app/components/TaskFormCustom";
 import TaskList from "@/app/components/TaskList";
 
 function TasksPage() {
   return (
     <div className='max-w-lg'>
-      <TaskForm />
+      <TaskFormCustom />
       <TaskList />
 
       <Link href="/">homepage</Link>

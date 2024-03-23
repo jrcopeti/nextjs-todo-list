@@ -26,7 +26,7 @@ async function SingleDrinkPage({ params }: SingleDrinkPageProps) {
 
   return (
     <div>
-      <Link href="drinks" className="btn btn-primary mt-8 mb-12">
+      <Link href="/drinks" className="btn btn-primary mt-8 mb-12">
         back to drinks
       </Link>
 
@@ -38,7 +38,6 @@ async function SingleDrinkPage({ params }: SingleDrinkPageProps) {
         priority
         alt={title}
       />
-      {/* <Image src={drinkImg} className='w-48 h-48 rounded-lg' alt={title} /> */}
       <h1 className="text-4xl mb-8">{title}</h1>
     </div>
   );

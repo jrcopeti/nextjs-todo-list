@@ -3,7 +3,7 @@ type DrinksLayoutProps = {
   children: ReactNode;
 };
 
-const DrinksLayout: React.FC<DrinksLayoutProps> = ({ children }) => {
+const DrinksLayout = ({ children }: DrinksLayoutProps) => {
   return (
     <div className="max-w-xl">
       <div className="mockup-code mb-8">
