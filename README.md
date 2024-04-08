@@ -1,4 +1,4 @@
-A project to practuce most of the features of Next.js, such as:
+A project to practice most of the features of Next.js, such as:
 
 - Server Side Rendering
 - Static Site Generation
